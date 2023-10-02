@@ -1,0 +1,22 @@
+Abstract class:
+- Abstract class comes under partial abstraction.
+- Abstract classes can maintain abstract methods and non abstract methods.
+- In abstract classes, we can create the variables.
+- In abstract classes, we can use any access specifier.
+- By using 'extends' keyword we can access the abstract class features from derived class.
+- Multiple inheritance is not possible.
+
+Interface:
+- Interface comes under fully abstraction.
+- Interfaces can maintain only abstract methods.
+- In interfaces, we can't create the variables.
+- In interface, we can use only public access specifier.
+- By using 'implement' keyword we can get interface from derived class.
+- By using interfaces multiple inheritance is possible.
+
+PHP - Interfaces vs. Abstract Classes
+-------------------------------------
+= Interfaces cannot have properties, while abstract classes can
+= All interface methods must be public, while abstract class methods is public or protected
+= All methods in an interface are abstract, so they cannot be implemented in code and the abstract keyword is not necessary
+= Classes can implement an interface while inheriting from another class at the same time
