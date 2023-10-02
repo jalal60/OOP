@@ -24,10 +24,13 @@ subclassed বা Child use korte parbee.
 
 //Real Life Problem Abstart Class and Method Vehicle and Car Pathoo Example.
 
+//abstract class we must have to define at least one abstract method inside abstract class.
+//we can also define common method inside abstract class.
 abstract class Vehicle
 {
     abstract public function getBaseFare();
     abstract public function getPerKiloFare();
+    //getTotal($kilo) is common method inside abstract calss which have defination.
     public function getTotal($kilo)
     {
         return $this->getBaseFare() + ($this->getPerKiloFare() * $kilo);
